@@ -1,0 +1,157 @@
+.header{
+    display: flex;
+    background-color:#1F2937; 
+    justify-content: space-between;
+    align-items: center;
+    padding:0 300px  ;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap:20px;
+    
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.logo{
+    color:white;
+    font-size:18px;
+    font-weight:600;
+    /* padding-left:70px; */
+    
+}
+
+.image1{
+    width:200px;
+    height:200px;
+    align-self: flex-end;
+    
+}
+.section1{
+    display:flex;
+    background-color:#1F2937; 
+    justify-content:center;
+    gap:40px;
+
+    padding:50px 300px  ;
+}
+.about{
+    align-self: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+
+}
+
+h1{
+    font-size: 48px;
+    height:min-content;
+    font-weight: 800;
+    color:#F9FAF8;
+}
+h4{
+    font-size: 24px;
+    font-weight: 100;
+    color:#E5E7EB;
+}
+
+.section2{
+    display: flex;
+    gap:16px;
+    justify-content: center;
+}
+
+.illustration{
+    text-align: center;
+    color:#1F2937;
+    font-size:18px;
+
+}
+.brownies{
+    width:200px;
+}
+
+.brownies img{
+    width:200px;
+    height:200px;
+    border-radius: 10px;
+    border: 4px solid whitesmoke;
+
+}
+.h2{
+    display: flex;
+    color:rgb(64, 61, 85); 
+    font-size:28px;
+    font-weight: 600;
+    justify-content: center;
+}
+
+.header img{
+    height:100px;
+    width:auto;
+    padding-top:8px;
+}
+
+.section3{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-left:70px;
+    padding-right:70px;
+    background-color: #E5E7EB;;
+    font-size: 30px;
+    flex-wrap: wrap;
+    height:400px;
+    margin-top: 30px;
+    font-style: italic;
+    color:rgb(64, 61, 85); 
+}
+.section4{
+    display:flex;
+    background-color:#3882F6;
+    border-radius: 4px; ;
+    margin:150px;
+    height:200px;
+    justify-content: space-evenly;
+    
+    align-items: center;
+}
+.action{
+    color:white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.word .illustration{
+    color:white;
+    font-size: 18px;
+}
+
+.word{
+    width:fit-content;
+}
+.button{
+     width: 125px;
+     height:35px;
+     border-radius: 4px;
+     border-color: white;
+     background-color: #3882F6;
+     border-style: solid;
+     color:white;
+     cursor:grab;
+}
+
+.footer{
+    background-color:#1F2937 ;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    color:white;
+    height:100px;
+    align-items: center;
+}
